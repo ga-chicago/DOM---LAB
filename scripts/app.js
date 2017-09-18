@@ -7,7 +7,7 @@ console.log(infoElements);
 
 const firstP = document.querySelector('p');
 firstP.innerText = 'Jamboree sandwich at the Jambo-ree';
-firstP.innerHTML = '<strong>Put your hands where I can see \'em, so they look like 12pm</strong>';
+firstP.innerHTML = '<strong>Put your hands where I can see \'em, so they look like 12pm</strong>'; // overwrites what was written into the innerText
 
 const newDiv = document.createElement('div');
 console.log(newDiv);
